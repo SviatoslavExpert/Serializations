@@ -29,7 +29,7 @@ public class XmlSerializationMaker {
             Field[] fields = shape.getClass().getDeclaredFields();
             s += "\t<" + shape.getClass().getSimpleName() + ">\n";
             s += encodeField(fields, shape);
-            s += "\t</" + shape.getClass().getSimpleName() + "\n";
+            s += "\t</" + shape.getClass().getSimpleName() + ">\n";
         }
         return s;
     }
