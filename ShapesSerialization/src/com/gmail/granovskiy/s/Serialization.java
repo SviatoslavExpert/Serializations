@@ -14,7 +14,7 @@ public class Serialization {
         group.addGroup(shapeGroupOne);
         //  adding shapes objects to shapeGroupTwo object
         shapeGroupTwo.addShape(new Square(9));
-        shapeGroupTwo.addShape(new Triangle(11, 12, 5));
+        shapeGroupTwo.addShape(new Triangle(7, 11, 9));
         shapeGroupTwo.addShape(new Circle(17));
         group.addGroup(shapeGroupTwo);
         //  Printing

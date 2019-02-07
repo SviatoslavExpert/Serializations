@@ -41,12 +41,11 @@ public class Triangle implements Shape {
     }
 
     //  method getArea
-    @Override
     public double getArea() {
         if (sideOneLength + sideTwoLength > sideThreeLength
                 && sideOneLength + sideThreeLength > sideTwoLength
                 && sideTwoLength + sideThreeLength > sideOneLength) {
-            double perimeter = (sideOneLength + sideTwoLength + sideThreeLength) / 2.0;
+            double perimeter = (double) (sideOneLength + sideTwoLength + sideThreeLength) / 2;
             area = Math.sqrt(perimeter * (perimeter - sideOneLength) * (perimeter - sideTwoLength) * (perimeter - sideThreeLength));
         } else {
             System.out.println("The triangle doesn't exist.");
@@ -64,4 +63,5 @@ public class Triangle implements Shape {
                 ", area=" + area +
                 '}';
     }
+
 }

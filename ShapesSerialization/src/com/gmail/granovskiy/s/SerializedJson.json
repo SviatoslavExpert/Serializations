@@ -1,0 +1,80 @@
+"C:\Program Files\Java\jdk1.8.0_201\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.3\lib\idea_rt.jar=49469:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Users\admin\IdeaProjects\Serializations\ShapesSerialization\out\production\FiguresTreeSerialization" com.gmail.granovskiy.s.Serialization
+<?xml version="1.0" encoding="UTF-8"?>
+<Group>
+	<Square>
+		<sideLength>3.0</sideLength>
+		<area>9.0</area>
+	</Square>
+	<Circle>
+		<radius>10.0</radius>
+		<area>314.1592653589793</area>
+	</Circle>
+	<Triangle>
+		<sideOneLength>9.0</sideOneLength>
+		<sideTwoLength>4.0</sideTwoLength>
+		<sideThreeLength>6.0</sideThreeLength>
+		<area>9.56229574945264</area>
+	</Triangle>
+	<Square>
+		<sideLength>7.0</sideLength>
+		<area>49.0</area>
+	</Square>
+</Group>
+<Group>
+	<Square>
+		<sideLength>9.0</sideLength>
+		<area>81.0</area>
+	</Square>
+	<Triangle>
+		<sideOneLength>11.0</sideOneLength>
+		<sideTwoLength>12.0</sideTwoLength>
+		<sideThreeLength>5.0</sideThreeLength>
+		<area>27.49545416973504</area>
+	</Triangle>
+	<Circle>
+		<radius>17.0</radius>
+		<area>907.9202768874502</area>
+	</Circle>
+</Group>
+
+
+{
+	"group" : [
+		{
+			"sideLength" : "3.0",
+			"area" : "9.0",
+		},
+		{
+			"radius" : "10.0",
+			"area" : "314.1592653589793",
+		},
+		{
+			"sideOneLength" : "9.0",
+			"sideTwoLength" : "4.0",
+			"sideThreeLength" : "6.0",
+			"area" : "9.56229574945264",
+		},
+		{
+			"sideLength" : "7.0",
+			"area" : "49.0",
+		},
+	]
+	"group" : [
+		{
+			"sideLength" : "9.0",
+			"area" : "81.0",
+		},
+		{
+			"sideOneLength" : "11.0",
+			"sideTwoLength" : "12.0",
+			"sideThreeLength" : "5.0",
+			"area" : "27.49545416973504",
+		},
+		{
+			"radius" : "17.0",
+			"area" : "907.9202768874502",
+		},
+	]
+}
+
+Process finished with exit code 0
