@@ -25,9 +25,6 @@ public class Group {
 
     @Override
     public String toString() {
-        return "Group{" +
-                "shape=" + shape +
-                ", group=" + group +
-                '}';
+        return "Group";
     }
 }
