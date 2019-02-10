@@ -16,7 +16,6 @@ public class JsonSerialization {
         List<Group> groups = group.getGroups();
         for (int i = 0; i < groups.size(); i++) {
             jsonString += "\t\"" + groups.get(i) + "\" : [\n";
-            //jsonString += "\t" + "\t" + "{\n";
             jsonString += encodeShape(groups.get(i));
             if (i < groups.size() - 1) {
                 jsonString += "\t],\n";
@@ -35,17 +34,16 @@ public class JsonSerialization {
             Field[] fields = shapes.get(i).getClass().getDeclaredFields();
             jsonString += "\t\t" + "{\n";
             jsonString += encodeField(fields, shapes.get(i));
-            if(i < shapes.size() - 1) {
+            if (i < shapes.size() - 1) {
                 jsonString += "\t\t},\n";
             }
-            if(i == shapes.size() - 1) {
+            if (i == shapes.size() - 1) {
                 jsonString += "\t\t}\n";
             }
         }
         return jsonString;
     }
-    //shapes.getClass().getDeclaredFields();
-    //  jsonString += "\t\t\"" + shape.getClass().getSimpleName() + "\" : {\n";
+
     private static String encodeField(Field[] fields, Shape shape) throws IllegalAccessException {
         String jsonString = "";
         for (int i = 0; i < fields.length; i++) {
